@@ -69,3 +69,5 @@ If you'd like to help out in any way reach out to me (discord) and check out the
 * [DeepSpeech docs](https://deepspeech.readthedocs.io/en/latest/)
 * [DeepSpeech forum](https://discourse.mozilla.org/c/mozilla-voice-stt/247)
 * [DeepSpeech examples](https://github.com/mozilla/DeepSpeech-examples)
+* [eDEX-UI on RPi4](https://github.com/GitSquared/edex-ui)
+* [eDEX-UI on RPi4 Youtube tutorial](https://www.youtube.com/watch?v=DJOAmYlDQuM)
