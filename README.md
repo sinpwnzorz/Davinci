@@ -65,9 +65,15 @@ If you'd like to help out in any way reach out to me (discord) and check out the
 ## Credits
 
 ## Links
+Main Links
 * [DeepSpeech on github](https://github.com/mozilla/STT)
 * [DeepSpeech docs](https://deepspeech.readthedocs.io/en/latest/)
 * [DeepSpeech forum](https://discourse.mozilla.org/c/mozilla-voice-stt/247)
 * [DeepSpeech examples](https://github.com/mozilla/DeepSpeech-examples)
+* [Wiseman Voice Activity Detector (VAD)](https://github.com/wiseman/py-webrtcvad)
+* [Halo](https://pypi.org/project/halo/)
+Cool Other Stuff Links
+* [Googler, CLI Google](https://github.com/jarun/googler/)
 * [eDEX-UI on RPi4](https://github.com/GitSquared/edex-ui)
 * [eDEX-UI on RPi4 Youtube tutorial](https://www.youtube.com/watch?v=DJOAmYlDQuM)
+* [pyttsx3 Python3 Text-to-Speech engine](https://pyttsx3.readthedocs.io/en/latest/engine.html)
