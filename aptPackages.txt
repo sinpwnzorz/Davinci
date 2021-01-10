@@ -1,0 +1,16 @@
+ffmpeg
+lame
+jq
+espeak
+git
+python3-pip
+python3-scipy
+python3-numpy
+python3-pyaudio
+libatlas3-base
+
+
+#apt installs
+#install ffmpeg && lame to convert .mkv, .webm, .mp4 into .mp3 https://computingforgeeks.com/how-to-convert-mp4-to-mp3-on-linux/
+#install json query for parsing youtube-dl queries
+#espeak tts client
