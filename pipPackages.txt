@@ -1,0 +1,17 @@
+deepspeech
+gTTS
+pyttsx3
+halo
+webrtcvad
+speedtest-cli
+youtube-dl
+
+
+#pip3 installs
+#text to speech clients: https://pythonprogramminglanguage.com/text-to-speech/
+#https://github.com/wiseman/py-webrtcvad
+#https://pypi.org/project/halo/
+#speedtest-cli speedtests from cli
+#MAKE DAMN SURE you're on the updated one or it wont work, its really fucky
+#but it's in /usr/local/bin/youtube-dl
+#everything thinks it should be in /usr/bin/youtube-dl
