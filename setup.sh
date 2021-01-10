@@ -1,8 +1,50 @@
+#!/bin/bash
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
+
+cat <<EOF
+██╗███╗░░██╗░██████╗████████╗░█████╗░██╗░░░░░██╗░░░░░██╗███╗░░██╗░██████╗░
+██║████╗░██║██╔════╝╚══██╔══╝██╔══██╗██║░░░░░██║░░░░░██║████╗░██║██╔════╝░
+██║██╔██╗██║╚█████╗░░░░██║░░░███████║██║░░░░░██║░░░░░██║██╔██╗██║██║░░██╗░
+██║██║╚████║░╚═══██╗░░░██║░░░██╔══██║██║░░░░░██║░░░░░██║██║╚████║██║░░╚██╗
+██║██║░╚███║██████╔╝░░░██║░░░██║░░██║███████╗███████╗██║██║░╚███║╚██████╔╝
+╚═╝╚═╝░░╚══╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚══════╝╚═╝╚═╝░░╚══╝░╚═════╝░
+
+██████╗░░█████╗░██╗░░░██╗██╗███╗░░██╗░█████╗░██╗
+██╔══██╗██╔══██╗██║░░░██║██║████╗░██║██╔══██╗██║
+██║░░██║███████║╚██╗░██╔╝██║██╔██╗██║██║░░╚═╝██║
+██║░░██║██╔══██║░╚████╔╝░██║██║╚████║██║░░██╗██║
+██████╔╝██║░░██║░░╚██╔╝░░██║██║░╚███║╚█████╔╝██║
+╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝╚═╝░░╚══╝░╚════╝░╚═╝
+--------------------------------------------------------------------
+Digital Analog Virtual Independent Networked Computational Interface
+EOF
+
 pip install --upgrade pip #makes sure we're ready for pip3 I think
 
-#install DeepSpeech 0.9.3 (Or most recent) https://github.com/touchgadget/DeepSpeech
-apt install git python3-pip python3-scipy python3-numpy python3-pyaudio libatlas3-base -y
-pip3 install deepspeech --upgrade
+for aptToolName in $(cat aptPackages.txt)
+do
+    if ! { apt install $aptToolName -y 2>&1 || echo E: update failed; } | grep -q '^[WE]:'; then
+        echo [  ${GREEN}OK${NC}  ] Installed $aptToolName.
+    else
+        echo [${RED}FAILED${NC}] Install of $aptToolName, try a manual install.
+    fi
+done
+
+# Same cool shit for above, but with pip3
+# for pipToolName in $(cat pipPackages.txt)
+# do
+#     if ! { sudo pip3 install $pipToolName 2>&1 || echo E: update failed; } | grep -q '^Successfully installed:'; then
+#         echo [ ${GREEN}SAME${NC} ] $pipToolName is already installed.
+#     elif ! { sudo pip3 install $pipToolName 2>&1 || echo E: update failed; } | grep -q '^[WE]:'; then
+#         echo [${RED}FAILED${NC}] Install of $pipToolName, try a manual install.
+#     else
+#         echo [  ${GREEN}OK${NC}  ] Installed $pipToolName.
+#     fi
+# done
+
 mkdir ~/dspeech
 cd ~/dspeech
 curl -LO https://github.com/mozilla/DeepSpeech/releases/download/v0.9.3/deepspeech-0.9.3-models.tflite
@@ -17,12 +59,6 @@ deepspeech --model deepspeech-0.9.3-models.tflite --scorer deepspeech-0.9.3-mode
 
 git clone https://github.com/mozilla/DeepSpeech-examples
 
-#If microphone won't work
-#Edit these values
-#sudo nano /usr/share/alsa/alsa.conf
-#defaults.ctl.card 3
-#defaults.pcm.card 3
-
 #install googler
 cd Downloads
 wget -c https://github.com/jarun/googler/archive/v4.3.1.tar.gz #downloading  "googler"
@@ -31,32 +67,12 @@ cd googler-4.3.1
 make install #i still dont know what this does
 cd auto-completion/bash/
 cp googler-completion.bash /etc/bash_completion.d/
-cd
-#remove wget file?
-
-#pip3 installs
-#text to speech clients: https://pythonprogramminglanguage.com/text-to-speech/
-#https://github.com/wiseman/py-webrtcvad
-#https://pypi.org/project/halo/
-#speedtest-cli speedtests from cli
-#MAKE DAMN SURE you're on the updated one or it wont work, its really fucky
-#but it's in /usr/local/bin/youtube-dl
-#everything thinks it should be in /usr/bin/youtube-dl
-pip3 install gTTS pyttsx3 halo webrtcvad speedtest-cli youtube-dl --upgrade
-
-#apt installs
-#install ffmpeg && lame to convert .mkv, .webm, .mp4 into .mp3 https://computingforgeeks.com/how-to-convert-mp4-to-mp3-on-linux/
-#install json query for parsing youtube-dl queries
-#espeak tts client
-apt install ffmpeg lame jq espeak -y
-
-#shell replace spaces https://vitux.com/how-to-replace-spaces-in-filenames-with-underscores-on-the-linux-shell/
+cd #remove wget file?
 
 #create and chmod run script to executable
-cd
-touch runDeepSpeech.sh
-cat > runDeepSpeech.sh <<EOF
-cd dspeech/
+touch ~/runDeepSpeech.sh
+cat > ~/runDeepSpeech.sh <<EOF
+cd ~/dspeech/
 python3 DeepSpeech-examples/mic_vad_streaming/mic_vad_streaming.py -m deepspeech-0.9.3-models.tflite -s deepspeech-0.9.3-models.scorer -r 44100
 EOF
 chmod +x runDeepSpeech.sh
