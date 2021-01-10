@@ -57,7 +57,10 @@ We have roombas, and lawn..bas? Why not a shopba?
 ² - This feature is partially implemented and may not be functional.
 
 ## Installation
-I'm super lazy, so I'm going to attempt to make an extremely easy single line setup that kicks everything off.
+I'm super lazy, so I'm going to attempt to make an extremely easy single line setup that kicks everything off. In theory run this from the home directory. It should make folders and what not for stuff:
+```
+sudo ./setup.sh
+```
 
 ## Contribute
 If you'd like to help out in any way reach out to me (discord) and check out the (contributing guidelines) hyperlink sauce
