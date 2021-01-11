@@ -1,6 +1,7 @@
 import time, logging
 from datetime import datetime
 from gtts import gTTS
+from fuzzywuzzy import fuzz
 import threading, collections, queue, os, os.path
 import deepspeech
 import numpy as np
@@ -66,7 +67,6 @@ class Audio(object):
         Microphone may not support our native processing sampling rate, so
         resample from input_rate to RATE_PROCESS here for webrtcvad and
         deepspeech
-
         Args:
             data (binary): Input audio stream
             input_rate (int): Input audio rate to resample from
@@ -404,6 +404,7 @@ def main(ARGS):
                 #x.start()      
                 
             # If no song present, compare perhaps 66% of the words for hits and attempt to play that song, or ask if that's the right song
+            # https://www.datacamp.com/community/tutorials/fuzzy-string-python
 
             # If requested song isn't available attempt to download it with prompt
 
