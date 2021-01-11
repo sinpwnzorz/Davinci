@@ -282,9 +282,13 @@ def main(ARGS):
             # Linux / Operating system level voice controlled commands.¹
             # os.system()
             def updateDavinci():
-                engine = pyttsx3.init()
-                engine.say("Attempting to preform quick self restart.")
-                engine.runAndWait()
+                tts = gTTS(text='Attempting to preform quick self restart.', lang='en')
+                tts.save("ttstemp.wav")
+                os.system("mpg321 ttstemp.wav")
+                os.system("rm ttstemp.wav")
+                #engine = pyttsx3.init()
+                #engine.say("Attempting to preform quick self restart.")
+                #engine.runAndWait()
                 os.system("/home/pi/restartVadStream.sh")
             if text.find("update yourself") != -1:
                 x = threading.Thread(target=updateDavinci)
