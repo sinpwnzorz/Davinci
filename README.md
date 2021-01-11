@@ -8,8 +8,8 @@ However it's destiny is to be the brains behind a 6-axis robotic arm to help me 
 We have roombas, and lawn..bas? Why not a shopba?
 
 ## Top level features
-* 100% usable (excluding additions) without internet or network connectivity¹
-* Voice recognition¹
+I'm going to attempt (at least for now) to have these lists correspond to the code ending with line #...ish
+* 100% usable Voice recognition without internet or network connectivity, excluding additions (207)¹
 * Text-To-Speech OR Prerecorded voice library engine for replies.¹
 * Mute AI Speech recognition while it's talking back to me to prevent it from commanding itself.
 * Threading / Subprocesses due to limited CPU strength on the Raspberry Pi 4's 4 threads:
@@ -21,6 +21,8 @@ We have roombas, and lawn..bas? Why not a shopba?
   * Literally a million features I'm too lazy to write out right now.
 
 ## Roadmap for fun additional features / to-do list
+* Help menu? "What can I say"
+* Voice recognition check, "do you understand (blank)"
 * Typical Alexa / Google Assistant / Siri / Echo features (Will add those later)
   * Calendar + reminder + notes automation.
 * HASSIO home automation integration.
@@ -39,9 +41,23 @@ We have roombas, and lawn..bas? Why not a shopba?
   * Customize voice playlists.
   * Download music by voice request using youtube-dl.¹
   * Play music by voice request.¹
+    * If no song present, compare perhaps 66% of the words for hits and attempt to play that song, or ask if that's the right song
+    * If requested song isn't available attempt to download it with prompt
+  * Stop / Pause music
 * Web / Online interaction:
   * Web crawler / search engine results.²
   * Discord bot integration.
+* Network Tools:
+  * Discover SSID's
+  * Voice connect to open networks
+  * Auto connect to saved networks
+  * Voice password additions for networks
+  * Deauthentication Packet detection + announcement
+  * Network security audit
+    * Record local devices
+    * automated pentesting (Aircrack-ng suite):
+      * Don't booo me. If you have WEP encryption you probably have default router login... I wanna know things like this. Automatically.
+  * Voice automated internet speed tests¹
 * Security:
   * Welcome Home door lock automation.
   * Intruder detection (Pixy2 / cell phone MAC address query)
@@ -50,7 +66,10 @@ We have roombas, and lawn..bas? Why not a shopba?
 * Emergency Responder Guide UN# Query and response
 * Voice activated emulators!
   * Maybe brings up QR codes somewhere to scan with phones to go to web ui for controllers?
-* Voice automated internet speed tests¹
+* For fun:
+  * Enter the matrix (launches cmatrix on all possible computers on network for 60 seconds)
+  * chopper plays get to the chopper
+  * self confidence booster
 
 ¹ - This feature is implemented and functional to a basic level.
 
