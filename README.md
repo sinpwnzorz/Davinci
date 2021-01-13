@@ -30,6 +30,7 @@ I'm going to attempt (at least for now) to have these lists correspond to the co
 * Voice control other devices: 
   * Android SDK to pull/push notifications, texts, and calls.
     * AI to be able to put phone into tether mode if asked.
+    * Order food (hard coded menu options until voice is smoothed out) from subway app.
   * FreePBX integration in place of Android SDK for calls.
   * Operate 3D printer(s) via Octoprint with voice.
     * Potentially including automatic searching, downloading, slicing, and printing.
