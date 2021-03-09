@@ -2,7 +2,7 @@
 This project features a multifaceted bridge between nearly any device you've ever spoken to any any button you've ever pressed, ambitious sure, but achievable none the less. The project is currently in it's home in a Raspberry Pi 4 though may work it's way into a different platform.
 
 ## Motivation
-The inspiration for this project comes from always needing another hand working on my projects. Getting my wife to lend a hand is like pulling teeth so I'm making my that is always available, happy and excited to help, and will brush my hair for me.
+The inspiration for this project comes from always needing another hand working on my projects. I can only ask for so many favors back to back from my better half before getting the stink eye, so I'm making this helper that is always ready, waiting, happy, and excited to help.
 At it's core is the 100% offline speech recognition software, currently Mozilla's DeepSpeech written in Python3 to offer the modern services all the other online home assistants have.
 However it's destiny is to be the brains behind a 6-axis robotic arm to help me out around the shop. Remember when Tony gets sprayed with a fire extinguisher? Yeah, like that one.
 We have roombas, and lawn..bas? Why not a shopba?
