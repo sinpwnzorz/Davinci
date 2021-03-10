@@ -23,7 +23,8 @@ I'm going to attempt (at least for now) to have these lists correspond to the co
 ## Roadmap for fun additional features / to-do list
 * Help menu? "What can I say"
 * Voice recognition check, "do you understand (blank)"
-* Typical Alexa / Google Assistant / Siri / Echo features (Will add those later)
+* Digital Secretary. Typical Alexa / Google Assistant / Siri / Echo features (Will add those later)
+  * Schedule confliction notifier, automatically listens and checks calendar if it hears "I can", or "I will", or "I could", etc.
   * Calendar + reminder + notes automation.
 * HASSIO home automation integration.
 * Bablefish Realtime Translator - With secret code to translate a localized reply like "Can I speak to your manager" in that language
