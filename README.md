@@ -7,6 +7,10 @@ At it's core is the 100% offline speech recognition software, currently Mozilla'
 However it's destiny is to Phase 1 of the Phase 2 project as the brains behind a 6-axis UR arm to help me out around the shop. Remember when Tony gets sprayed with a fire extinguisher? Yeah, like that one.
 We have roombas, and lawn..bas? Why not a shopba? Or everythinba?
 
+## Hardware:
+* Raspberry Pi 4 - Mainframe (https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
+* ReSpeaker Mic Array v2.0 - Microphone (https://www.seeedstudio.com/ReSpeaker-USB-Mic-Array-p-4247.html)
+
 ## Top level features
 - [x] 100% usable Voice recognition without internet or network connectivity, excluding additions.
 - [x] Text-To-Speech OR Prerecorded voice library engine for replies.
