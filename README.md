@@ -24,8 +24,9 @@ I'm going to attempt (at least for now) to have these lists correspond to the co
 * Help menu? "What can I say"
 * Voice recognition check, "do you understand (blank)"
 * Digital Secretary. Typical Alexa / Google Assistant / Siri / Echo features (Will add those later)
+  * Calculator - https://github.com/jarun/bcal
   * Schedule confliction notifier, automatically listens and checks calendar if it hears "I can", or "I will", or "I could", etc.
-  * Calendar + reminder + notes automation.
+  * Calendar + reminder + notes automation. - https://github.com/jarun/pdd
   * Errand Reminders when I say "I should go to the store soon" - Also stars car preemptively when too cold.
 * HASSIO home automation integration.
 * Bablefish Realtime Translator - With secret code to translate a localized reply like "Can I speak to your manager" in that language
@@ -48,7 +49,7 @@ I'm going to attempt (at least for now) to have these lists correspond to the co
     * If requested song isn't available attempt to download it with prompt
   * Stop / Pause music
 * Web / Online interaction:
-  * Web crawler / search engine results.²
+  * Web crawler / search engine results.² - https://github.com/jarun/ddgr - Googler
   * Discord bot integration.
 * Network Tools:
   * Discover SSID's
