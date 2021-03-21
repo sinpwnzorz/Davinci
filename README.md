@@ -24,12 +24,15 @@ I'm going to attempt (at least for now) to have these lists correspond to the co
 * Help menu? "What can I say"
 * Voice recognition check, "do you understand (blank)"
 * Digital Secretary. Typical Alexa / Google Assistant / Siri / Echo features (Will add those later)
-  * Calculator - https://github.com/jarun/bcal
+  * Calculator
+    * https://github.com/jarun/bcal
   * Schedule confliction notifier, automatically listens and checks calendar if it hears "I can", or "I will", or "I could", etc.
-  * Calendar + reminder + notes automation. - https://github.com/jarun/pdd
+  * Calendar + reminder + notes automation.
+    * https://github.com/jarun/pdd
   * Errand Reminders when I say "I should go to the store soon" - Also stars car preemptively when too cold.
 * HASSIO home automation integration.
 * Bablefish Realtime Translator - With secret code to translate a localized reply like "Can I speak to your manager" in that language
+  * https://github.com/formiel/speech-translation
 * Voice control other devices: 
   * Android SDK to pull/push notifications, texts, and calls.
     * AI to be able to put phone into tether mode if asked.
@@ -49,7 +52,9 @@ I'm going to attempt (at least for now) to have these lists correspond to the co
     * If requested song isn't available attempt to download it with prompt
   * Stop / Pause music
 * Web / Online interaction:
-  * Web crawler / search engine results.² - https://github.com/jarun/ddgr - Googler
+  * Web crawler / search engine results.²
+    * https://github.com/jarun/ddgr
+    * https://github.com/jarun/googler/
   * Discord bot integration.
 * Network Tools:
   * Discover SSID's
@@ -61,7 +66,7 @@ I'm going to attempt (at least for now) to have these lists correspond to the co
     * Record local devices
     * automated pentesting (Aircrack-ng suite):
       * Don't booo me. If you have WEP encryption you probably have default router login... I wanna know things like this. Automatically.
-  * Voice automated internet speed tests¹
+  *- [ ] Voice automated internet speed tests¹
 * Security:
   * Welcome Home door lock automation.
   * Intruder detection (Pixy2 / cell phone MAC address query)
