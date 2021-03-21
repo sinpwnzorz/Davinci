@@ -17,7 +17,8 @@ I'm going to attempt (at least for now) to have these lists correspond to the co
   - [x] Threading for running processes while other processes run.
   - [ ] Mesh Threading/node clusters??? for threading processes to other Raspberry Pi 4's on the network if possible?
   - [ ] Data Sync for all Pi's mass distribution of modified files. Could include automatic updates / update commits?
-- [ ] G-code programmable 6-axis arm on 2-3 axis gantry
+- [ ] G-code programmable 6-axis arm .
+  * https://github.com/RorschachUK/meArmPi
   - [ ] Literally a million features I'm too lazy to write out right now.
 
 ## Roadmap for fun additional features / to-do list
@@ -34,6 +35,10 @@ I'm going to attempt (at least for now) to have these lists correspond to the co
   - [ ] Calendar + reminder + notes automation.
     * https://github.com/jarun/pdd
   - [ ] Errand Reminders when I say "I should go to the store soon" - Also stars car preemptively when too cold.
+  * Various AI based githubs:
+    * https://github.com/synesthesiam/rhasspy
+    * https://github.com/the-raspberry-pi-guy/Artificial-Intelligence-Pi
+    * http://fhem.de/fhem.html
 - [ ] HASSIO home automation integration.
   * https://www.home-assistant.io/getting-started/
 - [ ] Bablefish Realtime Translator - With secret code to translate a localized reply like "Can I speak to your manager" in that language
@@ -41,11 +46,21 @@ I'm going to attempt (at least for now) to have these lists correspond to the co
 - [ ] Voice control other devices: 
   - [ ] Android SDK to pull/push notifications, texts, and calls.
     - [ ] AI to be able to put phone into tether mode if asked.
+    - [ ] And vice versa
+      * https://github.com/LorenzoRogai/RaspberryRemoteControl
     - [ ] Order food (hard coded menu options until voice is smoothed out) from subway app.
   - [ ] FreePBX integration in place of Android SDK for calls.
+    * https://github.com/climberhunt/PiPhone
   - [ ] Operate 3D printer(s) via Octoprint with voice.
     - [ ] Potentially including automatic searching, downloading, slicing, and printing.
+      * https://github.com/Ultimaker/Cura
   - [ ] Remotely execute commands to/from networked computers.
+  - [ ] Operating IoT devices such as lights and outlets
+    * https://www.electronicsforu.com/electronics-projects/multi-language-voice-control-iot-home-automation-system-using-google-assistant-and-raspberry-pi
+    * https://github.com/xkonni/raspberry-remote
+    * https://github.com/penguintutor/pi-power
+  - [ ] Thermostat and Air conditioner controls.
+    * https://github.com/Willseph/RaspberryPiThermostat
   - [ ] SSH-Agent configured for pass-wordless communication between Linux boxes.
     - [x] Basic functionality.
     - [ ] PowerShell to Windows machines too.
@@ -82,6 +97,18 @@ I'm going to attempt (at least for now) to have these lists correspond to the co
   - [ ] Intruder detection (Pixy2 / cell phone MAC address query)
 - [ ] Voice Memo Shadowplay - What did you just say? Find out! Play back the past.
 - [ ] codename CASPER
+  * https://github.com/jakubczaplicki/face-recognition-server
+  * https://github.com/jivoi/awesome-osint
+  * https://github.com/lockfale/OSINT-Framework
+  * https://github.com/s0md3v/Photon
+  * https://github.com/milo2012/osintstalker
+  * https://github.com/sinwindie/OSINT
+  * https://github.com/blaCCkHatHacEEkr/OSINT_TIPS
+  * https://github.com/SharadKumar97/OSINT-SPY
+  * https://github.com/sc1341/InstagramOSINT
+  * https://github.com/twelvesec/gasmask
+  * https://github.com/Datalux/Osintgram
+  * https://github.com/nikharris0/probemon
 - [ ] Emergency Responder Guide UN# Query and response
   - [x] Basic functionality.
     * https://github.com/sinpwnzorz/Davinci/tree/main/features/erg
