@@ -66,7 +66,7 @@ I'm going to attempt (at least for now) to have these lists correspond to the co
     * Record local devices
     * automated pentesting (Aircrack-ng suite):
       * Don't booo me. If you have WEP encryption you probably have default router login... I wanna know things like this. Automatically.
-  *- [ ] Voice automated internet speed tests¹
+  * - [x] Voice automated internet speed tests¹
 * Security:
   * Welcome Home door lock automation.
   * Intruder detection (Pixy2 / cell phone MAC address query)
