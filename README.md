@@ -55,8 +55,10 @@ I'm going to attempt (at least for now) to have these lists correspond to the co
   - [ ] Add playlists, and add songs to playlists. Delete songs or playlists.
   - [ ] Customize voice playlists.
   - [x] Download music by voice request using youtube-dl.
+    * https://github.com/ytdl-org/youtube-dl/
   - [ ] Play music by voice request.
     - [x] Basic functionality.
+      * https://github.com/popcornmix/omxplayer
     - [ ] If no song present, compare perhaps 66% of the words for hits and attempt to play that song, or ask if that's the right song
     - [ ] If requested song isn't available attempt to download it with prompt
   - [x] Stop / Pause music
