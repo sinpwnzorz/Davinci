@@ -85,6 +85,7 @@ I'm going to attempt (at least for now) to have these lists correspond to the co
     * https://github.com/sinpwnzorz/Davinci/tree/main/features/erg
   - [ ] Incorporate the ERG into the voice control.
   - [ ] Filter by types of incidents / hazards for more specific readout of response procedure.
+  - [ ] Remove unneccessarily present line numbers.
 - [ ] Voice activated emulators!
   - [ ] Maybe brings up QR codes somewhere to scan with phones to go to web ui for controllers?
 - [x] For fun:
