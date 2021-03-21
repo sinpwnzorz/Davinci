@@ -8,8 +8,7 @@ However it's destiny is to Phase 1 of the Phase 2 project as the brains behind a
 We have roombas, and lawn..bas? Why not a shopba? Or everythinba?
 
 ## Top level features
-I'm going to attempt (at least for now) to have these lists correspond to the code ending with line #...ish
-- [x] 100% usable Voice recognition without internet or network connectivity, excluding additions (207)
+- [x] 100% usable Voice recognition without internet or network connectivity, excluding additions.
 - [x] Text-To-Speech OR Prerecorded voice library engine for replies.
   - [ ] Mute AI Speech recognition while it's talking back to me to prevent it from commanding itself.
 - [ ] Threading / Subprocesses due to limited CPU strength on the Raspberry Pi 4's 4 threads:
