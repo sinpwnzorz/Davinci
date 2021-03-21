@@ -97,7 +97,11 @@ We have roombas, and lawn..bas? Why not a shopba? Or everythinba?
   - [x] Voice automated internet speed tests
 - [ ] Security:
   - [ ] Welcome Home door lock automation.
-  - [ ] Intruder detection (Pixy2 / cell phone MAC address query)
+  - [ ] Visitor detection 
+    - [ ] Pixy2 
+    - [ ] Cell Phone MAC Identity
+    - [ ] Voice Identification
+      * https://github.com/CorentinJ/Real-Time-Voice-Cloning
 - [ ] Voice Memo Shadowplay - What did you just say? Find out! Play back the past.
 - [ ] codename CASPER
   * https://github.com/jakubczaplicki/face-recognition-server
