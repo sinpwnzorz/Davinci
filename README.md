@@ -69,6 +69,10 @@ We have roombas, and lawn..bas? Why not a shopba? Or everythinba?
     - [ ] PowerShell to Windows machines too.
     - [ ] Network wide operability.
   - [ ] Linux / Operating system level voice controlled commands.
+- [ ] Automotive Assistant:
+  - [ ] Active noise contol
+    * https://www.raspberrypi.org/forums/viewtopic.php?t=8766
+    * https://github.com/psykulsk/RpiANC
 - [ ] Virtual DJ:
   - [ ] Add playlists, and add songs to playlists. Delete songs or playlists.
   - [ ] Customize voice playlists.
