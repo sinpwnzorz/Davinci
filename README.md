@@ -159,3 +159,4 @@ Cool Other Stuff Links
 * [eDEX-UI on RPi4](https://github.com/GitSquared/edex-ui)
 * [eDEX-UI on RPi4 Youtube tutorial](https://www.youtube.com/watch?v=DJOAmYlDQuM)
 * [pyttsx3 Python3 Text-to-Speech engine](https://pyttsx3.readthedocs.io/en/latest/engine.html)
+* [GPS on RPi4](https://gpswebshop.com/blogs/tech-support-by-os-linux/how-to-connect-an-usb-gps-receiver-with-a-raspberry-pi)
