@@ -3,10 +3,7 @@ lame
 jq
 espeak
 git
-python3-pip
-python3-scipy
-python3-numpy
-python3-pyaudio
+pip
 libatlas3-base
 
 
