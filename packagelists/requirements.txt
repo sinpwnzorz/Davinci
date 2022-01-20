@@ -1,11 +1,13 @@
-deepspeech
+deepspeech==0.9.3
 gTTS
 pyttsx3
 halo
 webrtcvad
 speedtest-cli
 youtube-dl
-
+scipy
+numpy
+pyaudio
 
 #pip3 installs
 #text to speech clients: https://pythonprogramminglanguage.com/text-to-speech/
