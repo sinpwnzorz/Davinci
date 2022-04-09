@@ -1,4 +1,4 @@
-# Digital Analog Virtual Independent Networked Computational Interface - D.A.V.I.N.C.I.
+# Digitally Automated Virtually Intelligent Nonjudgemental Computer Interface - D.A.V.I.N.C.I.
 This project features a multifaceted bridge between nearly any device you've ever spoken to any any button you've ever pressed, ambitious sure, but achievable none the less. The project is currently in it's home in a Raspberry Pi 4 though may work it's way into a different platform.
 
 ## Motivation
