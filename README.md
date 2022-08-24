@@ -39,7 +39,7 @@ We have roombas, and lawn..bas? Why not a shopba? Or everythinba?
     * https://github.com/insanum/gcalcli
   - [ ] Calendar + reminder + notes automation.
     * https://github.com/jarun/pdd
-  - [ ] Errand Reminders when I say "I should go to the store soon" - Also stars car preemptively when too cold.
+  - [ ] Errand Reminders when I say "I should go to the store soon" - Also starts car preemptively when too cold.
     * https://github.com/dbader/schedule
   * Various AI based githubs:
     * https://github.com/synesthesiam/rhasspy
