@@ -33,6 +33,7 @@ We have roombas, and lawn..bas? Why not a shopba? Or everythinba?
   - [ ] Adaptive.
 - [ ] Digital Secretary. Typical Alexa / Google Assistant / Siri / Echo features (Will add those later)
   - [ ] Calculator / Math
+    * https://github.com/WolframResearch/WolframClientForPython
     * https://github.com/jarun/bcal
   - [ ] Schedule confliction notifier, automatically listens and checks calendar if it hears "I can", or "I will", or "I could", etc.
   - [ ] Calendar + reminder + notes automation.
