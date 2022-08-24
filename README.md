@@ -36,9 +36,11 @@ We have roombas, and lawn..bas? Why not a shopba? Or everythinba?
     * https://github.com/WolframResearch/WolframClientForPython
     * https://github.com/jarun/bcal
   - [ ] Schedule confliction notifier, automatically listens and checks calendar if it hears "I can", or "I will", or "I could", etc.
+    * https://github.com/insanum/gcalcli
   - [ ] Calendar + reminder + notes automation.
     * https://github.com/jarun/pdd
   - [ ] Errand Reminders when I say "I should go to the store soon" - Also stars car preemptively when too cold.
+    * https://github.com/dbader/schedule
   * Various AI based githubs:
     * https://github.com/synesthesiam/rhasspy
     * https://github.com/the-raspberry-pi-guy/Artificial-Intelligence-Pi
@@ -49,6 +51,7 @@ We have roombas, and lawn..bas? Why not a shopba? Or everythinba?
   * https://github.com/formiel/speech-translation
 - [ ] Voice control other devices: 
   - [ ] Android SDK to pull/push notifications, texts, and calls.
+    - [ ] https://github.com/kivy/python-for-android
     - [ ] AI to be able to put phone into tether mode if asked.
     - [ ] And vice versa
       * https://github.com/LorenzoRogai/RaspberryRemoteControl
@@ -59,12 +62,15 @@ We have roombas, and lawn..bas? Why not a shopba? Or everythinba?
     - [ ] Potentially including automatic searching, downloading, slicing, and printing.
       * https://github.com/Ultimaker/Cura
   - [ ] Remotely execute commands to/from networked computers.
+    * https://github.com/eclipse/paho.mqtt.python 
   - [ ] Operating IoT devices such as lights and outlets
     * https://www.electronicsforu.com/electronics-projects/multi-language-voice-control-iot-home-automation-system-using-google-assistant-and-raspberry-pi
     * https://github.com/xkonni/raspberry-remote
     * https://github.com/penguintutor/pi-power
+    * https://github.com/eclipse/paho.mqtt.python
   - [ ] Thermostat and Air conditioner controls.
     * https://github.com/Willseph/RaspberryPiThermostat
+    * https://github.com/eclipse/paho.mqtt.python
   - [ ] SSH-Agent configured for pass-wordless communication between Linux boxes.
     - [x] Basic functionality.
     - [ ] PowerShell to Windows machines too.
@@ -76,6 +82,7 @@ We have roombas, and lawn..bas? Why not a shopba? Or everythinba?
     * https://github.com/psykulsk/RpiANC
 - [ ] Virtual DJ:
   - [ ] Add playlists, and add songs to playlists. Delete songs or playlists.
+    * https://github.com/quodlibet/quodlibet 
   - [ ] Customize voice playlists.
   - [x] Download music by voice request using youtube-dl.
     * https://github.com/ytdl-org/youtube-dl/
@@ -92,8 +99,16 @@ We have roombas, and lawn..bas? Why not a shopba? Or everythinba?
   - [ ] Discord bot integration.
 - [ ] Network Tools:
   - [ ] Discover SSID's
+     * https://github.com/SYWorks/wifi-harvester
+     * https://github.com/WiPi-Hunter/PiDense
+     * https://github.com/smythtech/WifiProbeMapper
   - [ ] Voice connect to open networks
+     * https://github.com/rockymeza/wifi
+     * https://github.com/0x90/wifi-scripts
+     * https://github.com/jasbur/RaspiWiFi
+     * https://github.com/PA0DEV/WifiManager
   - [ ] Auto connect to saved networks
+     * god no what was I thinking fix this dumb idea
   - [ ] Voice password additions for networks
   - [ ] Deauthentication Packet detection + announcement
   - [ ] Network security audit
@@ -108,6 +123,7 @@ We have roombas, and lawn..bas? Why not a shopba? Or everythinba?
     - [ ] Voice Identification
       * https://github.com/CorentinJ/Real-Time-Voice-Cloning
 - [ ] Voice Memo Shadowplay - What did you just say? Find out! Play back the past.
+  * https://github.com/goshasawicka/streamshift
 - [ ] codename CASPER
   * https://github.com/jakubczaplicki/face-recognition-server
   * https://github.com/jivoi/awesome-osint
