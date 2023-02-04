@@ -38,6 +38,8 @@ We have roombas, and lawn..bas? Why not a shopba? Or everythinba?
   - [ ] Schedule confliction notifier, automatically listens and checks calendar if it hears "I can", or "I will", or "I could", etc.
     * https://github.com/insanum/gcalcli
   - [ ] Calendar + reminder + notes automation.
+    * https://pypi.org/project/APScheduler/
+    * https://pypi.org/project/croniter/
     * https://github.com/jarun/pdd
   - [ ] Errand Reminders when I say "I should go to the store soon" - Also starts car preemptively when too cold.
     * https://github.com/dbader/schedule
