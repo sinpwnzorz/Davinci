@@ -1,5 +1,5 @@
 # Digitally Automated Virtually Intelligent Nonjudgemental Computer Interface - D.A.V.I.N.C.I.
-This project features a multifaceted bridge between nearly any device you've ever spoken to any any button you've ever pressed, ambitious sure, but achievable none the less. The project is currently in it's home in a Raspberry Pi 4 though may work it's way into a different platform.
+This project features a multifaceted bridge between nearly any device you've ever spoken to and any button you've ever pressed, ambitious sure, but achievable none the less. The project is currently in it's home in a Raspberry Pi 4 though may work it's way into a different platform.
 
 ## Motivation
 The inspiration for this project comes from always needing another hand working on my projects. I can only ask for so many favors back to back from my better half before getting the stink eye, so I'm making this helper that is always ready, waiting, happy, and excited to help.
